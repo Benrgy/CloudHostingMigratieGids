@@ -4,9 +4,9 @@ import { Card } from "@/components/ui/card";
 
 const HeroSection = () => {
   const stats = [
-    { icon: BookOpen, label: "Expert Articles", value: "200+" },
-    { icon: Users, label: "Monthly Readers", value: "50K+" },
-    { icon: TrendingUp, label: "Success Stories", value: "1000+" }
+    { icon: BookOpen, label: "Expert Artikelen", value: "200+" },
+    { icon: Users, label: "Maandelijkse Lezers", value: "50K+" },
+    { icon: TrendingUp, label: "Succesverhalen", value: "1000+" }
   ];
 
   return (
@@ -31,7 +31,7 @@ const HeroSection = () => {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto">
-            Expert insights on cloud hosting migration, SEO optimization, and cutting-edge tech solutions for modern businesses.
+            Expert inzichten over cloud hosting migratie, SEO optimalisatie en geavanceerde tech oplossingen voor moderne bedrijven.
           </p>
 
           {/* CTA Buttons */}
@@ -40,7 +40,7 @@ const HeroSection = () => {
               size="lg" 
               className="bg-gradient-primary hover:shadow-premium transition-all duration-300 transform hover:scale-105"
             >
-              Explore Articles
+              Bekijk Artikelen
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button 
@@ -48,7 +48,7 @@ const HeroSection = () => {
               size="lg"
               className="border-primary/20 hover:bg-primary/5 hover:border-primary/40 transition-all duration-300"
             >
-              Subscribe to Newsletter
+              Abonneer op Nieuwsbrief
             </Button>
           </div>
 

@@ -52,10 +52,10 @@ const BlogGrid = () => {
       <div className="container mx-auto px-6">
         <div className="mb-12 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Latest <span className="bg-gradient-primary bg-clip-text text-transparent">Articles</span>
+            Laatste <span className="bg-gradient-primary bg-clip-text text-transparent">Artikelen</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Stay ahead with our expert insights on cloud migration, SEO optimization, and modern web technologies.
+            Blijf vooroplopen met onze expert inzichten over cloud migratie, SEO optimalisatie en moderne web technologieën.
           </p>
         </div>
 

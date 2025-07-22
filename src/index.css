@@ -9,43 +9,43 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Modern Cloud Blog Design System */
-    --background: 248 250 252;
-    --foreground: 15 23 42;
+    --background: 210 40% 98%;
+    --foreground: 215 25% 15%;
 
-    --card: 255 255 255;
-    --card-foreground: 15 23 42;
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
 
-    --popover: 255 255 255;
-    --popover-foreground: 15 23 42;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
 
     /* Premium Blue Gradient Palette */
-    --primary: 59 130 246;
-    --primary-glow: 147 197 253;
-    --primary-foreground: 248 250 252;
+    --primary: 217 91% 60%;
+    --primary-glow: 214 95% 79%;
+    --primary-foreground: 210 40% 98%;
 
-    --secondary: 248 250 252;
-    --secondary-foreground: 51 65 85;
+    --secondary: 210 40% 98%;
+    --secondary-foreground: 215 25% 27%;
 
-    --muted: 241 245 249;
-    --muted-foreground: 100 116 139;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 59 130 246;
-    --accent-foreground: 248 250 252;
+    --accent: 217 91% 60%;
+    --accent-foreground: 210 40% 98%;
 
-    --destructive: 239 68 68;
-    --destructive-foreground: 248 250 252;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 226 232 240;
-    --input: 226 232 240;
-    --ring: 59 130 246;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 217 91% 60%;
 
     --radius: 0.75rem;
 
     /* Premium Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-hero: linear-gradient(135deg, hsl(217 91% 60%), hsl(59 130 246));
-    --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(248 250 252));
-    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(241 245 249));
+    --gradient-hero: linear-gradient(135deg, hsl(217 91% 60%), hsl(214 95% 79%));
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(210 40% 98%));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(210 40% 96%));
 
     /* Premium Shadows */
     --shadow-premium: 0 25px 50px -12px rgba(59, 130, 246, 0.15);
