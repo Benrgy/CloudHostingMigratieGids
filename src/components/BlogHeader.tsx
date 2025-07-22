@@ -7,9 +7,9 @@ const BlogHeader = () => {
 
   const navItems = [
     { href: "/", label: "Home" },
-    { href: "/pillar1", label: "Cloud Migration" },
-    { href: "/pillar2", label: "SEO Strategies" },
-    { href: "/pillar3", label: "Tech Solutions" }
+    { href: "/cloud-migratie", label: "Cloud Migratie" },
+    { href: "/seo-strategieen", label: "SEO Strategieën" },
+    { href: "/tech-oplossingen", label: "Tech Oplossingen" }
   ];
 
   return (

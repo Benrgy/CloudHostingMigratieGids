@@ -5,10 +5,10 @@ import { Card } from "@/components/ui/card";
 
 const NewsletterSection = () => {
   const benefits = [
-    "Weekly expert insights",
-    "Exclusive migration guides", 
-    "Early access to new content",
-    "Industry trend updates"
+    "Wekelijkse expert inzichten",
+    "Exclusieve migratie gidsen", 
+    "Vroege toegang tot nieuwe content",
+    "Industrie trend updates"
   ];
 
   return (
@@ -25,11 +25,11 @@ const NewsletterSection = () => {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Stay <span className="bg-gradient-primary bg-clip-text text-transparent">Informed</span>
+              Blijf <span className="bg-gradient-primary bg-clip-text text-transparent">Geïnformeerd</span>
             </h2>
             
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              Join thousands of professionals who rely on our newsletter for the latest insights in cloud migration and SEO optimization.
+              Word onderdeel van duizenden professionals die vertrouwen op onze nieuwsbrief voor de laatste inzichten in cloud migratie en SEO optimalisatie.
             </p>
           </div>
 
@@ -47,19 +47,19 @@ const NewsletterSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
             <Input 
               type="email" 
-              placeholder="Enter your email address"
+              placeholder="Voer je e-mailadres in"
               className="flex-1 h-12 bg-background/50 border-border/50 focus:border-primary/50 focus:ring-primary/20"
             />
             <Button 
               size="lg"
               className="bg-gradient-primary hover:shadow-glow transition-all duration-300 transform hover:scale-105 px-8"
             >
-              Subscribe
+              Abonneren
             </Button>
           </div>
 
           <p className="text-xs text-muted-foreground text-center mt-4">
-            No spam. Unsubscribe at any time. Your privacy is protected.
+            Geen spam. Uitschrijven kan altijd. Jouw privacy is beschermd.
           </p>
         </Card>
       </div>

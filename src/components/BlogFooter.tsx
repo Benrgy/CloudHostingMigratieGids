@@ -3,16 +3,16 @@ import { Cloud, Mail, Github, Twitter, Linkedin } from "lucide-react";
 const BlogFooter = () => {
   const footerLinks = {
     resources: [
-      { label: "SEO Tools", href: "#" },
-      { label: "Migration Guides", href: "#" },
-      { label: "Performance Tips", href: "#" },
-      { label: "Case Studies", href: "#" }
+      { label: "SEO Tools", href: "/seo-tools" },
+      { label: "Migratie Gidsen", href: "/migratie-gidsen" },
+      { label: "Performance Tips", href: "/performance-tips" },
+      { label: "Case Studies", href: "/case-studies" }
     ],
     company: [
-      { label: "About Us", href: "#" },
-      { label: "Contact", href: "#" },
-      { label: "Privacy Policy", href: "#" },
-      { label: "Terms of Service", href: "#" }
+      { label: "Over Ons", href: "/over-ons" },
+      { label: "Contact", href: "/contact" },
+      { label: "Privacy Beleid", href: "/privacy" },
+      { label: "Algemene Voorwaarden", href: "/voorwaarden" }
     ],
     social: [
       { icon: Twitter, label: "Twitter", href: "#" },
@@ -39,8 +39,8 @@ const BlogFooter = () => {
               </div>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
-              Your trusted source for cloud migration insights, SEO strategies, and modern web technology solutions. 
-              Helping businesses transition to the cloud with confidence.
+              Jouw vertrouwde bron voor cloud migratie inzichten, SEO strategieën en moderne web technologie oplossingen. 
+              Wij helpen bedrijven om met vertrouwen over te stappen naar de cloud.
             </p>
             
             {/* Social Links */}
@@ -60,7 +60,7 @@ const BlogFooter = () => {
 
           {/* Resources */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Resources</h4>
+            <h4 className="font-semibold text-foreground mb-4">Bronnen</h4>
             <ul className="space-y-3">
               {footerLinks.resources.map((link, index) => (
                 <li key={index}>
@@ -77,7 +77,7 @@ const BlogFooter = () => {
 
           {/* Company */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Company</h4>
+            <h4 className="font-semibold text-foreground mb-4">Bedrijf</h4>
             <ul className="space-y-3">
               {footerLinks.company.map((link, index) => (
                 <li key={index}>
@@ -96,12 +96,12 @@ const BlogFooter = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border/50 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            © 2024 Cloud Hosting Migratie Blog. All rights reserved.
+            © 2024 Cloud Hosting Migratie Blog. Alle rechten voorbehouden.
           </p>
           <div className="flex items-center space-x-1 text-sm text-muted-foreground mt-4 md:mt-0">
-            <span>Made with</span>
+            <span>Gemaakt met</span>
             <span className="text-red-500">♥</span>
-            <span>for the cloud community</span>
+            <span>voor de cloud community</span>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ interface BlogCardProps {
   featured?: boolean;
 }
 
-const BlogCard = ({ title, excerpt, date, category, author = "KimiSEO Team", href, featured = false }: BlogCardProps) => {
+const BlogCard = ({ title, excerpt, date, category, author = "Cloud Migratie Team", href, featured = false }: BlogCardProps) => {
   return (
     <Card 
       className={`group relative overflow-hidden bg-gradient-card border-0 shadow-card hover:shadow-premium transition-all duration-500 transform hover:-translate-y-2 ${
@@ -27,7 +27,7 @@ const BlogCard = ({ title, excerpt, date, category, author = "KimiSEO Team", hre
           </Badge>
           {featured && (
             <Badge className="bg-gradient-primary text-primary-foreground shadow-glow">
-              Featured
+              Uitgelicht
             </Badge>
           )}
         </div>
@@ -61,7 +61,7 @@ const BlogCard = ({ title, excerpt, date, category, author = "KimiSEO Team", hre
           
           {/* Read More Arrow */}
           <div className="flex items-center space-x-1 text-primary group-hover:translate-x-1 transition-transform duration-300">
-            <span className="font-medium">Read More</span>
+            <span className="font-medium">Lees Meer</span>
             <ArrowRight className="w-4 h-4" />
           </div>
         </div>
