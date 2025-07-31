@@ -10,6 +10,12 @@ import SeoStrategieen from "./pages/SeoStrategieen";
 import TechOplossingen from "./pages/TechOplossingen";
 import Contact from "./pages/Contact";
 import OverOns from "./pages/OverOns";
+import CaseStudies from "./pages/CaseStudies";
+import SeoTools from "./pages/SeoTools";
+import MigratieGidsen from "./pages/MigratieGidsen";
+import PerformanceTips from "./pages/PerformanceTips";
+import Privacy from "./pages/Privacy";
+import Voorwaarden from "./pages/Voorwaarden";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +32,12 @@ const App = () => (
           <Route path="/tech-oplossingen" element={<TechOplossingen />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/over-ons" element={<OverOns />} />
+          <Route path="/case-studies" element={<CaseStudies />} />
+          <Route path="/seo-tools" element={<SeoTools />} />
+          <Route path="/migratie-gidsen" element={<MigratieGidsen />} />
+          <Route path="/performance-tips" element={<PerformanceTips />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/voorwaarden" element={<Voorwaarden />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
