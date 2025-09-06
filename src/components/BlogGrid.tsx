@@ -7,7 +7,7 @@ const BlogGrid = () => {
       excerpt: "Master the latest technical SEO strategies to boost your website's performance and search rankings with our comprehensive guide.",
       date: "22 Jul 2024",
       category: "SEO",
-      href: "./post/seo-guide/index.html",
+      href: "/blog/seo-guide",
       featured: true
     },
     {
@@ -15,35 +15,35 @@ const BlogGrid = () => {
       excerpt: "Learn proven strategies for seamless cloud migration without downtime or data loss.",
       date: "18 Jul 2024", 
       category: "Cloud Hosting",
-      href: "#"
+      href: "/blog/cloud-migration-best-practices"
     },
     {
       title: "Performance Optimization Techniques",
       excerpt: "Boost your website speed with advanced optimization techniques and tools.",
       date: "15 Jul 2024",
       category: "Tech",
-      href: "#"
+      href: "/blog/performance-optimization"
     },
     {
       title: "Modern Hosting Solutions Compared",
       excerpt: "A detailed comparison of the latest hosting solutions for businesses in 2024.",
       date: "12 Jul 2024",
       category: "Hosting",
-      href: "#"
+      href: "/blog/modern-hosting-solutions"
     },
     {
       title: "SEO Analytics & Tracking",
       excerpt: "Set up comprehensive SEO tracking to measure and improve your organic growth.",
       date: "8 Jul 2024",
       category: "SEO",
-      href: "#"
+      href: "/blog/seo-analytics"
     },
     {
       title: "Security in Cloud Environments",
       excerpt: "Essential security practices for protecting your cloud infrastructure and data.",
       date: "5 Jul 2024",
       category: "Security",
-      href: "#"
+      href: "/blog/security-cloud-environments"
     }
   ];
 
