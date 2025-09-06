@@ -1,5 +1,5 @@
-import { BlogHeader } from "@/components/BlogHeader";
-import { BlogFooter } from "@/components/BlogFooter";
+import BlogHeader from "@/components/BlogHeader";
+import BlogFooter from "@/components/BlogFooter";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, TrendingUp, BarChart, Target, Search } from "lucide-react";
@@ -262,7 +262,7 @@ const SeoAnalytics = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                       <div className="text-center p-4 bg-muted/50 rounded-lg">
                         <div className="font-semibold text-foreground">Response Time</div>
-                        <div className="text-sm text-muted-foreground">< 200ms target</div>
+                        <div className="text-sm text-muted-foreground">&lt; 200ms target</div>
                       </div>
                       <div className="text-center p-4 bg-muted/50 rounded-lg">
                         <div className="font-semibold text-foreground">Uptime</div>
@@ -270,7 +270,7 @@ const SeoAnalytics = () => {
                       </div>
                       <div className="text-center p-4 bg-muted/50 rounded-lg">
                         <div className="font-semibold text-foreground">Error Rate</div>
-                        <div className="text-sm text-muted-foreground">< 0.1% target</div>
+                        <div className="text-sm text-muted-foreground">&lt; 0.1% target</div>
                       </div>
                     </div>
                   </CardContent>

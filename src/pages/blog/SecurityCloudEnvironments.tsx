@@ -1,5 +1,5 @@
-import { BlogHeader } from "@/components/BlogHeader";
-import { BlogFooter } from "@/components/BlogFooter";
+import BlogHeader from "@/components/BlogHeader";
+import BlogFooter from "@/components/BlogFooter";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Shield, Lock, AlertTriangle, Eye, Server } from "lucide-react";
