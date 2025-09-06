@@ -4,9 +4,9 @@ import { Card } from "@/components/ui/card";
 
 const HeroSection = () => {
   const stats = [
-    { icon: BookOpen, label: "Expert Artikelen", value: "200+" },
-    { icon: Users, label: "Maandelijkse Lezers", value: "50K+" },
-    { icon: TrendingUp, label: "Succesverhalen", value: "1000+" }
+    { icon: BookOpen, label: "Succesvolle Migraties", value: "500+" },
+    { icon: Users, label: "Gemiddelde Kostenbesparing", value: "40%" },
+    { icon: TrendingUp, label: "Uptime Garantie", value: "99.9%" }
   ];
 
   return (
@@ -23,15 +23,16 @@ const HeroSection = () => {
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
             <span className="bg-gradient-hero bg-clip-text text-transparent">
-              Cloud Migration
+              Bespaar 40% op Hosting Kosten
             </span>
             <br />
-            <span className="text-foreground">Made Simple</span>
+            <span className="text-foreground">met Cloud Migratie</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto">
-            Expert inzichten over cloud hosting migratie, SEO optimalisatie en geavanceerde tech oplossingen voor moderne bedrijven.
+            <strong>500+ succesvolle migraties.</strong> Expert begeleiding van Nederlandse specialisten. 
+            Verhoog prestaties met 300%, verlaag kosten tot 40%, én krijg 99.9% uptime gegarandeerd.
           </p>
 
           {/* CTA Buttons */}
@@ -40,7 +41,7 @@ const HeroSection = () => {
               size="lg" 
               className="bg-gradient-primary hover:shadow-premium transition-all duration-300 transform hover:scale-105"
             >
-              Bekijk Artikelen
+              Gratis Consultatie Aanvragen
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button 
@@ -48,7 +49,7 @@ const HeroSection = () => {
               size="lg"
               className="border-primary/20 hover:bg-primary/5 hover:border-primary/40 transition-all duration-300"
             >
-              Abonneer op Nieuwsbrief
+              Bekijk Case Studies
             </Button>
           </div>
 

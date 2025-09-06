@@ -1,0 +1,15 @@
+# SPA fallback for Netlify
+/*    /index.html   200
+
+# Specific routes with proper status codes
+/cloud-migratie /index.html 200
+/seo-strategieen /index.html 200
+/tech-oplossingen /index.html 200
+/seo-tools /index.html 200
+/case-studies /index.html 200
+/migratie-gidsen /index.html 200
+/performance-tips /index.html 200
+/contact /index.html 200
+/over-ons /index.html 200
+/privacy /index.html 200
+/voorwaarden /index.html 200
