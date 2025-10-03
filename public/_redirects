@@ -13,3 +13,11 @@
 /over-ons /index.html 200
 /privacy /index.html 200
 /voorwaarden /index.html 200
+
+# Blog post routes
+/blog/seo-gids-2024 /index.html 200
+/blog/cloud-migratie-best-practices /index.html 200
+/blog/performance-optimalisatie /index.html 200
+/blog/moderne-hosting-oplossingen /index.html 200
+/blog/seo-analytics-cloud /index.html 200
+/blog/beveiliging-cloud-omgevingen /index.html 200

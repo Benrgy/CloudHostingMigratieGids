@@ -116,6 +116,60 @@ export const seoConfigs: Record<string, SEOConfig> = {
     ogDescription: 'Transparante algemene voorwaarden voor cloud migratie services in Nederland.',
     twitterTitle: 'Algemene Voorwaarden',
     twitterDescription: 'Algemene voorwaarden voor cloud migratie services in Nederland.'
+  },
+  '/blog/seo-gids-2024': {
+    title: 'Ultieme SEO Gids 2024: Complete Handleiding voor Cloud Hosting',
+    description: 'Leer alles over SEO optimalisatie voor cloud hosting websites. Van technische SEO tot content strategie, inclusief AI-gedreven tips voor betere rankings.',
+    keywords: 'seo gids, cloud hosting seo, technische seo, seo optimalisatie, website ranking, zoekmachine optimalisatie',
+    ogTitle: 'Ultieme SEO Gids 2024 voor Cloud Hosting',
+    ogDescription: 'Complete SEO handleiding voor cloud websites. Van technische optimalisatie tot AI-gedreven content.',
+    twitterTitle: 'SEO Gids 2024 Cloud Hosting',
+    twitterDescription: 'Alles over SEO optimalisatie voor cloud hosting websites. Technische SEO en content strategie.'
+  },
+  '/blog/cloud-migratie-best-practices': {
+    title: 'Cloud Migratie Best Practices: Complete Stappenplan voor 2024',
+    description: 'Ontdek de beste praktijken voor een succesvolle cloud migratie. Van planning tot uitvoering, inclusief security, compliance en kostenoptimalisatie.',
+    keywords: 'cloud migratie, migratie best practices, cloud transitie, cloud hosting, migratie planning, cloud strategie',
+    ogTitle: 'Cloud Migratie Best Practices 2024',
+    ogDescription: 'Complete stappenplan voor succesvolle cloud migratie. Security, compliance en kostenoptimalisatie.',
+    twitterTitle: 'Cloud Migratie Best Practices',
+    twitterDescription: 'Beste praktijken voor cloud migratie: planning, uitvoering en optimalisatie.'
+  },
+  '/blog/performance-optimalisatie': {
+    title: 'Website Performance Optimalisatie: Van Traag naar Razendsnel',
+    description: 'Verbeter je website snelheid met deze geavanceerde performance optimalisatie technieken. Inclusief praktische tips voor cloud hosting omgevingen.',
+    keywords: 'performance optimalisatie, website snelheid, pagina snelheid, core web vitals, website performance, snelheid verbeteren',
+    ogTitle: 'Website Performance Optimalisatie Gids',
+    ogDescription: 'Maak je website razendsnel met geavanceerde performance optimalisatie voor cloud hosting.',
+    twitterTitle: 'Performance Optimalisatie Tips',
+    twitterDescription: 'Verbeter website snelheid met performance optimalisatie voor cloud hosting.'
+  },
+  '/blog/moderne-hosting-oplossingen': {
+    title: 'Moderne Cloud Hosting Oplossingen: Complete Vergelijking 2024',
+    description: 'Vergelijk de beste cloud hosting oplossingen van 2024. AWS, Azure, Google Cloud en meer - ontdek welke het beste bij jouw bedrijf past.',
+    keywords: 'cloud hosting, hosting oplossingen, aws, azure, google cloud, hosting vergelijking, cloud providers',
+    ogTitle: 'Moderne Cloud Hosting Oplossingen 2024',
+    ogDescription: 'Complete vergelijking van cloud hosting: AWS, Azure, Google Cloud en meer.',
+    twitterTitle: 'Cloud Hosting Vergelijking 2024',
+    twitterDescription: 'Vergelijk de beste cloud hosting oplossingen: AWS, Azure, Google Cloud.'
+  },
+  '/blog/seo-analytics-cloud': {
+    title: 'SEO Analytics voor Cloud Websites: Meten is Weten',
+    description: 'Leer hoe je SEO performance meet en optimaliseert voor cloud-gehoste websites. Google Analytics, Search Console en geavanceerde tracking.',
+    keywords: 'seo analytics, google analytics, search console, seo tracking, website analytics, seo rapportage',
+    ogTitle: 'SEO Analytics voor Cloud Websites',
+    ogDescription: 'Meet en optimaliseer SEO performance met Google Analytics en Search Console voor cloud websites.',
+    twitterTitle: 'SEO Analytics Cloud Websites',
+    twitterDescription: 'Meet SEO performance met Analytics en Search Console voor cloud websites.'
+  },
+  '/blog/beveiliging-cloud-omgevingen': {
+    title: 'Security Best Practices voor Cloud Omgevingen: Complete Gids',
+    description: 'Bescherm je cloud infrastructuur met deze beveiliging best practices. Van encryption tot compliance, alles wat je moet weten.',
+    keywords: 'cloud security, beveiliging, cloud beveiliging, security best practices, cybersecurity, data beveiliging',
+    ogTitle: 'Security Best Practices Cloud Omgevingen',
+    ogDescription: 'Complete gids voor cloud beveiliging: encryption, compliance en security best practices.',
+    twitterTitle: 'Cloud Security Best Practices',
+    twitterDescription: 'Bescherm je cloud infrastructuur met security best practices en compliance.'
   }
 };
 

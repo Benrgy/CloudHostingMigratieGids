@@ -1,75 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cloudmigratienederland.nl/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://cloudhostingmigratie.nl/</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+  
+  <!-- Main Pages -->
   <url>
-    <loc>https://cloudmigratienederland.nl/cloud-migratie</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://cloudhostingmigratie.nl/cloud-migratie</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cloudmigratienederland.nl/seo-strategieen</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://cloudhostingmigratie.nl/seo-strategieen</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://cloudhostingmigratie.nl/tech-oplossingen</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://cloudhostingmigratie.nl/seo-tools</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cloudmigratienederland.nl/tech-oplossingen</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://cloudhostingmigratie.nl/case-studies</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cloudmigratienederland.nl/seo-tools</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://cloudhostingmigratie.nl/migratie-gidsen</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cloudhostingmigratie.nl/performance-tips</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cloudhostingmigratie.nl/contact</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://cloudmigratienederland.nl/case-studies</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://cloudhostingmigratie.nl/over-ons</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  
+  <!-- Blog Posts -->
   <url>
-    <loc>https://cloudmigratienederland.nl/migratie-gidsen</loc>
+    <loc>https://cloudhostingmigratie.nl/blog/seo-gids-2024</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cloudmigratienederland.nl/performance-tips</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://cloudhostingmigratie.nl/blog/cloud-migratie-best-practices</loc>
+    <lastmod>2024-01-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cloudmigratienederland.nl/contact</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://cloudhostingmigratie.nl/blog/performance-optimalisatie</loc>
+    <lastmod>2024-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cloudhostingmigratie.nl/blog/moderne-hosting-oplossingen</loc>
+    <lastmod>2024-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cloudhostingmigratie.nl/blog/seo-analytics-cloud</loc>
+    <lastmod>2024-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cloudhostingmigratie.nl/blog/beveiliging-cloud-omgevingen</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://cloudhostingmigratie.nl/privacy</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cloudmigratienederland.nl/over-ons</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://cloudhostingmigratie.nl/voorwaarden</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://cloudmigratienederland.nl/privacy</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://cloudmigratienederland.nl/voorwaarden</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
   </url>
 </urlset>

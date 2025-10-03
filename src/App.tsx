@@ -18,6 +18,12 @@ import MigratieGidsen from "./pages/MigratieGidsen";
 import PerformanceTips from "./pages/PerformanceTips";
 import Privacy from "./pages/Privacy";
 import Voorwaarden from "./pages/Voorwaarden";
+import SeoGuide from "./pages/blog/SeoGuide";
+import CloudMigrationBestPractices from "./pages/blog/CloudMigrationBestPractices";
+import PerformanceOptimization from "./pages/blog/PerformanceOptimization";
+import ModernHostingSolutions from "./pages/blog/ModernHostingSolutions";
+import SeoAnalytics from "./pages/blog/SeoAnalytics";
+import SecurityCloudEnvironments from "./pages/blog/SecurityCloudEnvironments";
 
 const queryClient = new QueryClient();
 
@@ -42,6 +48,12 @@ const App = () => (
           <Route path="/performance-tips" element={<PerformanceTips />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/voorwaarden" element={<Voorwaarden />} />
+          <Route path="/blog/seo-gids-2024" element={<SeoGuide />} />
+          <Route path="/blog/cloud-migratie-best-practices" element={<CloudMigrationBestPractices />} />
+          <Route path="/blog/performance-optimalisatie" element={<PerformanceOptimization />} />
+          <Route path="/blog/moderne-hosting-oplossingen" element={<ModernHostingSolutions />} />
+          <Route path="/blog/seo-analytics-cloud" element={<SeoAnalytics />} />
+          <Route path="/blog/beveiliging-cloud-omgevingen" element={<SecurityCloudEnvironments />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
