@@ -429,7 +429,7 @@ const ModernHostingSolutions = () => {
                 Toekomst van Cloud Hosting in Nederland
               </h2>
               <p className="text-muted-foreground mb-6">
-                Cloud hosting migratie trends en innovations die Nederlandse bedrijven moeten overwegen voor 2024 en verder. Edge computing, serverless architecturen, en AI-driven optimalisatie transformeren cloud hosting verder.
+                Cloud hosting migratie trends en innovaties die Nederlandse bedrijven moeten overwegen voor 2026 en verder. Edge computing, serverless architecturen, en AI-driven optimalisatie transformeren cloud hosting verder.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
