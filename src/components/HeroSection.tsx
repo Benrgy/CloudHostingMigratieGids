@@ -1,12 +1,12 @@
-import { ArrowRight, BookOpen, Users, TrendingUp } from "lucide-react";
+import { ArrowRight, BookOpen, Users, TrendingUp, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
 const HeroSection = () => {
   const stats = [
-    { icon: BookOpen, label: "Succesvolle Migraties", value: "500+" },
+    { icon: BookOpen, label: "Succesvolle Cloud Migraties", value: "500+" },
     { icon: Users, label: "Gemiddelde Kostenbesparing", value: "40%" },
-    { icon: TrendingUp, label: "Uptime Garantie", value: "99.9%" }
+    { icon: TrendingUp, label: "Uptime Garantie", value: "99.9%" },
   ];
 
   return (
@@ -20,19 +20,25 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Main Heading */}
+          {/* Trust Signal */}
+          <div className="inline-flex items-center gap-2 bg-primary/10 text-primary rounded-full px-4 py-2 text-sm font-medium mb-6">
+            <Shield className="w-4 h-4" />
+            <span>Gecertificeerde AWS, Azure & Google Cloud Partners</span>
+          </div>
+
+          {/* Main Heading - H1 with primary keyword */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
             <span className="bg-gradient-hero bg-clip-text text-transparent">
-              Bespaar 40% op Hosting Kosten
+              Cloud Hosting Migratie
             </span>
             <br />
-            <span className="text-foreground">met Cloud Migratie</span>
+            <span className="text-foreground">Bespaar 40% op Hosting Kosten</span>
           </h1>
 
-          {/* Subtitle */}
+          {/* Subtitle with longtail keywords */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto">
-            <strong>500+ succesvolle migraties.</strong> Expert begeleiding van Nederlandse specialisten. 
-            Verhoog prestaties met 300%, verlaag kosten tot 40%, én krijg 99.9% uptime gegarandeerd.
+            <strong>500+ succesvolle cloud migraties in Nederland.</strong> Professionele begeleiding bij server migratie naar AWS, Azure of Google Cloud. 
+            Verhoog prestaties met 300% én krijg 99.9% uptime gegarandeerd.
           </p>
 
           {/* CTA Buttons */}
@@ -40,16 +46,20 @@ const HeroSection = () => {
             <Button 
               size="lg" 
               className="bg-gradient-primary hover:shadow-premium transition-all duration-300 transform hover:scale-105"
+              asChild
             >
-              Gratis Consultatie Aanvragen
-              <ArrowRight className="ml-2 h-5 w-5" />
+              <a href="/contact">
+                Gratis Migratie Consultatie
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
             <Button 
               variant="outline" 
               size="lg"
               className="border-primary/20 hover:bg-primary/5 hover:border-primary/40 transition-all duration-300"
+              asChild
             >
-              Bekijk Case Studies
+              <a href="/case-studies">Bekijk Resultaten</a>
             </Button>
           </div>
 

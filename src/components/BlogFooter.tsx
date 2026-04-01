@@ -96,7 +96,7 @@ const BlogFooter = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border/50 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            © 2024 Cloud Hosting Migratie Blog. Alle rechten voorbehouden.
+            © 2026 Cloud Hosting Migratie Nederland. Alle rechten voorbehouden.
           </p>
           <div className="flex items-center space-x-1 text-sm text-muted-foreground mt-4 md:mt-0">
             <span>Gemaakt met</span>

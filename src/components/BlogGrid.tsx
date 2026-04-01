@@ -3,49 +3,49 @@ import BlogCard from "./BlogCard";
 const BlogGrid = () => {
   const blogPosts = [
     {
-      title: "Ultieme SEO Gids 2024: Complete Handleiding voor Cloud Hosting",
-      excerpt: "Ontdek de krachtigste SEO strategieën voor cloud-gehoste websites. Van technische optimalisatie tot AI-gedreven content marketing.",
-      date: "15 januari 2024",
+      title: "SEO Gids voor Cloud Hosting 2026: Complete Handleiding",
+      excerpt: "Ontdek de krachtigste SEO strategieën voor cloud-gehoste websites in 2026. Technische optimalisatie, AI Overview targeting en content strategie voor hogere rankings.",
+      date: "1 april 2026",
       category: "SEO Strategieën",
       href: "/blog/seo-gids-2024",
       featured: true,
     },
     {
-      title: "Cloud Migratie Best Practices: Complete Stappenplan",
-      excerpt: "Leer de beste praktijken voor een succesvolle cloud migratie. Van planning tot uitvoering, inclusief security en compliance.",
-      date: "10 januari 2024",
+      title: "Cloud Migratie Best Practices 2026: Stappenplan & Checklist",
+      excerpt: "Bewezen best practices voor cloud hosting migratie. Complete stappenplan met security, compliance en kostenoptimalisatie voor Nederlandse bedrijven.",
+      date: "28 maart 2026",
       category: "Cloud Migratie",
       href: "/blog/cloud-migratie-best-practices",
       featured: true,
     },
     {
       title: "Website Performance Optimalisatie: Van Traag naar Razendsnel",
-      excerpt: "Verbeter je website snelheid met deze geavanceerde performance optimalisatie technieken voor cloud hosting omgevingen.",
-      date: "8 januari 2024",
+      excerpt: "Verbeter uw website snelheid met geavanceerde performance optimalisatie technieken voor cloud hosting. Core Web Vitals en CDN strategieën.",
+      date: "25 maart 2026",
       category: "Performance Tips",
       href: "/blog/performance-optimalisatie",
       featured: true,
     },
     {
-      title: "Moderne Cloud Hosting Oplossingen: Complete Vergelijking",
-      excerpt: "Vergelijk de beste cloud hosting oplossingen van 2024. AWS, Azure, Google Cloud en meer - ontdek wat het beste past.",
-      date: "5 januari 2024",
+      title: "Cloud Hosting Vergelijking 2026: AWS vs Azure vs Google Cloud",
+      excerpt: "Complete vergelijking van de beste cloud hosting oplossingen. Kosten, features en performance van AWS, Azure, Google Cloud en DigitalOcean.",
+      date: "20 maart 2026",
       category: "Tech Oplossingen",
       href: "/blog/moderne-hosting-oplossingen",
       featured: false,
     },
     {
       title: "SEO Analytics voor Cloud Websites: Meten is Weten",
-      excerpt: "Leer hoe je SEO performance meet en optimaliseert voor cloud-gehoste websites met Google Analytics en Search Console.",
-      date: "3 januari 2024",
+      excerpt: "Leer SEO performance meten met Google Analytics 4 en Search Console. Datagedreven optimalisatie voor cloud-gehoste websites.",
+      date: "15 maart 2026",
       category: "SEO Tools",
       href: "/blog/seo-analytics-cloud",
       featured: false,
     },
     {
-      title: "Security Best Practices voor Cloud Omgevingen",
-      excerpt: "Bescherm je cloud infrastructuur met deze beveiliging best practices. Van encryption tot compliance.",
-      date: "1 januari 2024",
+      title: "Cloud Security Best Practices 2026: Beveiliging & Compliance",
+      excerpt: "Bescherm uw cloud infrastructuur met bewezen security best practices. Encryptie, zero-trust architectuur en ISO27001 compliance.",
+      date: "10 maart 2026",
       category: "Tech Oplossingen",
       href: "/blog/beveiliging-cloud-omgevingen",
       featured: false,
@@ -60,7 +60,7 @@ const BlogGrid = () => {
             Laatste <span className="bg-gradient-primary bg-clip-text text-transparent">Artikelen</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Blijf vooroplopen met onze expert inzichten over cloud migratie, SEO optimalisatie en moderne web technologieën.
+            Expert inzichten over cloud hosting migratie, SEO optimalisatie en moderne web technologieën voor Nederlandse bedrijven in 2026.
           </p>
         </div>
 
