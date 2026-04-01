@@ -18,7 +18,7 @@ const SeoGuide = () => {
               SEO Expert Guide
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Technical SEO Guide 2024: Cloud Hosting <span className="bg-gradient-primary bg-clip-text text-transparent">Migratie</span> Optimalisatie
+              SEO Gids 2026: Cloud Hosting <span className="bg-gradient-primary bg-clip-text text-transparent">Migratie</span> Optimalisatie voor Hogere Rankings
             </h1>
             <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
               Ontdek hoe cloud hosting migratie uw SEO rankings kan verbeteren. Complete gids met bewezen strategieën voor Nederlandse bedrijven om 40% meer organisch verkeer te genereren na cloud migratie.
