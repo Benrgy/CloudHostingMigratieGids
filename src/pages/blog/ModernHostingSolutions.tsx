@@ -21,7 +21,7 @@ const ModernHostingSolutions = () => {
               Cloud Hosting Vergelijking 2026: <span className="bg-gradient-primary bg-clip-text text-transparent">AWS vs Azure vs Google Cloud</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
-              Ontdek de beste cloud hosting oplossingen voor Nederlandse bedrijven in 2024. Complete vergelijking van hosting providers, cloud hosting migratie opties, en kostenbesparing mogelijkheden tot 50%.
+              Ontdek de beste cloud hosting oplossingen voor Nederlandse bedrijven in 2026. Complete vergelijking van AWS, Azure, Google Cloud en meer. Cloud hosting migratie opties en kostenbesparing tot 50%.
             </p>
             <div className="flex items-center justify-center gap-6 text-sm text-muted-foreground">
               <span>Gepubliceerd: 12 Juli 2024</span>
