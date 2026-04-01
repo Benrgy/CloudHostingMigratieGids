@@ -24,7 +24,7 @@ const ModernHostingSolutions = () => {
               Ontdek de beste cloud hosting oplossingen voor Nederlandse bedrijven in 2026. Complete vergelijking van AWS, Azure, Google Cloud en meer. Cloud hosting migratie opties en kostenbesparing tot 50%.
             </p>
             <div className="flex items-center justify-center gap-6 text-sm text-muted-foreground">
-              <span>Gepubliceerd: 12 Juli 2024</span>
+              <span>Bijgewerkt: 20 maart 2026</span>
               <span>•</span>
               <span>Leestijd: 18 minuten</span>
               <span>•</span>
