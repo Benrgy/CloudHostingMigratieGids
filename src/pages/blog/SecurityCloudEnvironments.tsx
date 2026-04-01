@@ -24,7 +24,7 @@ const SecurityCloudEnvironments = () => {
               Ontdek essentiële security practices voor cloud hosting omgevingen. Complete gids voor Nederlandse bedrijven om cloud hosting migratie veilig uit te voeren en enterprise-grade beveiliging te implementeren.
             </p>
             <div className="flex items-center justify-center gap-6 text-sm text-muted-foreground">
-              <span>Gepubliceerd: 5 Juli 2024</span>
+              <span>Bijgewerkt: 10 maart 2026</span>
               <span>•</span>
               <span>Leestijd: 16 minuten</span>
               <span>•</span>
