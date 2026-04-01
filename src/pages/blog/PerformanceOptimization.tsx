@@ -24,7 +24,7 @@ const PerformanceOptimization = () => {
               Maximaliseer de voordelen van uw cloud hosting migratie met geavanceerde performance optimalisatie technieken. Maak uw website 3x sneller en verbeter uw Google rankings na cloud migratie.
             </p>
             <div className="flex items-center justify-center gap-6 text-sm text-muted-foreground">
-              <span>Gepubliceerd: 15 Juli 2024</span>
+              <span>Bijgewerkt: 25 maart 2026</span>
               <span>•</span>
               <span>Leestijd: 12 minuten</span>
               <span>•</span>

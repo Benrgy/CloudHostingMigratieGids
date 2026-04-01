@@ -18,13 +18,13 @@ const ModernHostingSolutions = () => {
               Hosting Expert
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Moderne Cloud Hosting Oplossingen: <span className="bg-gradient-primary bg-clip-text text-transparent">Complete Vergelijking 2024</span>
+              Cloud Hosting Vergelijking 2026: <span className="bg-gradient-primary bg-clip-text text-transparent">AWS vs Azure vs Google Cloud</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
-              Ontdek de beste cloud hosting oplossingen voor Nederlandse bedrijven in 2024. Complete vergelijking van hosting providers, cloud hosting migratie opties, en kostenbesparing mogelijkheden tot 50%.
+              Ontdek de beste cloud hosting oplossingen voor Nederlandse bedrijven in 2026. Complete vergelijking van AWS, Azure, Google Cloud en meer. Cloud hosting migratie opties en kostenbesparing tot 50%.
             </p>
             <div className="flex items-center justify-center gap-6 text-sm text-muted-foreground">
-              <span>Gepubliceerd: 12 Juli 2024</span>
+              <span>Bijgewerkt: 20 maart 2026</span>
               <span>•</span>
               <span>Leestijd: 18 minuten</span>
               <span>•</span>
@@ -40,7 +40,7 @@ const ModernHostingSolutions = () => {
                 Evolutie van Hosting naar Cloud: Waarom Cloud Hosting Migratie Noodzakelijk is
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                De hosting industrie is fundamenteel veranderd. Traditionele hosting kan niet meer voldoen aan de eisen van moderne Nederlandse bedrijven. Cloud hosting migratie is niet langer een keuze maar een noodzaak voor bedrijven die competitief willen blijven in 2024.
+                De hosting industrie is fundamenteel veranderd. Traditionele hosting kan niet meer voldoen aan de eisen van moderne Nederlandse bedrijven. Cloud hosting migratie is niet langer een keuze maar een noodzaak voor bedrijven die competitief willen blijven in 2026.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
@@ -429,7 +429,7 @@ const ModernHostingSolutions = () => {
                 Toekomst van Cloud Hosting in Nederland
               </h2>
               <p className="text-muted-foreground mb-6">
-                Cloud hosting migratie trends en innovations die Nederlandse bedrijven moeten overwegen voor 2024 en verder. Edge computing, serverless architecturen, en AI-driven optimalisatie transformeren cloud hosting verder.
+                Cloud hosting migratie trends en innovaties die Nederlandse bedrijven moeten overwegen voor 2026 en verder. Edge computing, serverless architecturen, en AI-driven optimalisatie transformeren cloud hosting verder.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -439,7 +439,7 @@ const ModernHostingSolutions = () => {
                     <p className="text-sm text-muted-foreground mb-3">
                       Nederlandse providers investeren in edge locations voor ultra-lage latency. Ideaal voor IoT en real-time applicaties na cloud migratie.
                     </p>
-                    <div className="text-xs text-primary font-medium">Beschikbaar vanaf Q2 2024</div>
+                    <div className="text-xs text-primary font-medium">Breed beschikbaar in 2026</div>
                   </CardContent>
                 </Card>
                 

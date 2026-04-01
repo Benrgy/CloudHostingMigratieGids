@@ -24,7 +24,7 @@ const SeoAnalytics = () => {
               Ontdek hoe cloud hosting migratie uw SEO analytics mogelijkheden transformeert. Complete gids voor advanced tracking, performance monitoring, en ROI measurement na cloud migratie.
             </p>
             <div className="flex items-center justify-center gap-6 text-sm text-muted-foreground">
-              <span>Gepubliceerd: 8 Juli 2024</span>
+              <span>Bijgewerkt: 15 maart 2026</span>
               <span>•</span>
               <span>Leestijd: 14 minuten</span>
               <span>•</span>

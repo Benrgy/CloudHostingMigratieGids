@@ -18,13 +18,13 @@ const CloudMigrationBestPractices = () => {
               Cloud Hosting Expert
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Cloud Hosting <span className="bg-gradient-primary bg-clip-text text-transparent">Migratie</span> Best Practices 2024
+              Cloud Hosting <span className="bg-gradient-primary bg-clip-text text-transparent">Migratie</span> Best Practices 2026
             </h1>
             <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
               Ontdek bewezen cloud hosting migratie strategieën voor Nederlandse bedrijven. Complete gids voor naadloze cloud migratie zonder downtime, dataverlies of SEO impact. Bespaar 40% op hosting kosten.
             </p>
             <div className="flex items-center justify-center gap-6 text-sm text-muted-foreground">
-              <span>Gepubliceerd: 18 Juli 2024</span>
+              <span>Bijgewerkt: 28 maart 2026</span>
               <span>•</span>
               <span>Leestijd: 15 minuten</span>
               <span>•</span>
@@ -37,7 +37,7 @@ const CloudMigrationBestPractices = () => {
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-foreground mb-6 flex items-center">
                 <Cloud className="w-8 h-8 mr-3 text-primary" />
-                Waarom Cloud Hosting Migratie Essentieel is in 2024
+                Waarom Cloud Hosting Migratie Essentieel is in 2026
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Cloud hosting migratie is geen luxe meer - het is een noodzaak voor Nederlandse bedrijven die concurrentieel willen blijven. Bedrijven die succesvol cloud hosting migratie hebben uitgevoerd, rapporteren gemiddeld 40% kostenbesparing, 99.9% uptime en 60% betere schaalbaarheid.
