@@ -24,7 +24,7 @@ const CloudMigrationBestPractices = () => {
               Ontdek bewezen cloud hosting migratie strategieën voor Nederlandse bedrijven. Complete gids voor naadloze cloud migratie zonder downtime, dataverlies of SEO impact. Bespaar 40% op hosting kosten.
             </p>
             <div className="flex items-center justify-center gap-6 text-sm text-muted-foreground">
-              <span>Gepubliceerd: 18 Juli 2024</span>
+              <span>Bijgewerkt: 28 maart 2026</span>
               <span>•</span>
               <span>Leestijd: 15 minuten</span>
               <span>•</span>
