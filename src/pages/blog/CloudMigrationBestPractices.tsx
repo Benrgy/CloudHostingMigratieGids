@@ -37,7 +37,7 @@ const CloudMigrationBestPractices = () => {
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-foreground mb-6 flex items-center">
                 <Cloud className="w-8 h-8 mr-3 text-primary" />
-                Waarom Cloud Hosting Migratie Essentieel is in 2024
+                Waarom Cloud Hosting Migratie Essentieel is in 2026
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Cloud hosting migratie is geen luxe meer - het is een noodzaak voor Nederlandse bedrijven die concurrentieel willen blijven. Bedrijven die succesvol cloud hosting migratie hebben uitgevoerd, rapporteren gemiddeld 40% kostenbesparing, 99.9% uptime en 60% betere schaalbaarheid.

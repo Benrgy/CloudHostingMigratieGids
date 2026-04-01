@@ -37,7 +37,7 @@ const SeoGuide = () => {
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-foreground mb-6 flex items-center">
                 <TrendingUp className="w-8 h-8 mr-3 text-primary" />
-                Waarom Cloud Hosting Migratie Essentieel is voor SEO in 2024
+                Waarom Cloud Hosting Migratie Essentieel is voor SEO in 2026
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Cloud hosting migratie is niet alleen een technische upgrade - het is een strategische SEO-beslissing die directe impact heeft op uw Google rankings. Nederlandse bedrijven die succesvol naar cloud hosting zijn gemigreerd, rapporteren gemiddeld 35% snellere laadtijden en 28% hogere search engine rankings.

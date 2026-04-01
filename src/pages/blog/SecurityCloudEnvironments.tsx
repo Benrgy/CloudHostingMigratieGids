@@ -18,7 +18,7 @@ const SecurityCloudEnvironments = () => {
               Security Expert
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Beveiliging in Cloud Hosting na <span className="bg-gradient-primary bg-clip-text text-transparent">Cloud Hosting Migratie</span>
+              Cloud Security Best Practices 2026: <span className="bg-gradient-primary bg-clip-text text-transparent">Beveiliging na Cloud Hosting Migratie</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
               Ontdek essentiële security practices voor cloud hosting omgevingen. Complete gids voor Nederlandse bedrijven om cloud hosting migratie veilig uit te voeren en enterprise-grade beveiliging te implementeren.

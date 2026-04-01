@@ -439,7 +439,7 @@ const ModernHostingSolutions = () => {
                     <p className="text-sm text-muted-foreground mb-3">
                       Nederlandse providers investeren in edge locations voor ultra-lage latency. Ideaal voor IoT en real-time applicaties na cloud migratie.
                     </p>
-                    <div className="text-xs text-primary font-medium">Beschikbaar vanaf Q2 2024</div>
+                    <div className="text-xs text-primary font-medium">Breed beschikbaar in 2026</div>
                   </CardContent>
                 </Card>
                 
