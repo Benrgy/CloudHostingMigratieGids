@@ -1,1 +1,1 @@
-{\n  "name": "your-package-name",\n  "version": "1.0.0",\n  "description": "Your project description",\n  "main": "index.js",\n  "scripts": {\n    "test": "echo 'Error: no test specified' && exit 1"\n  },\n  "homepage": "https://benrgy.github.io/CloudHostingMigratieGids"\n}
+{"name":"your-package-name","version":"1.0.0","description":"Your project description","main":"index.js","scripts":{"test":"echo 'Error: no test specified' && exit 1"},"homepage":"https://benrgy.github.io/CloudHostingMigratieGids"}
