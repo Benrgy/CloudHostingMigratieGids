@@ -18,7 +18,7 @@ const CloudMigrationBestPractices = () => {
               Cloud Hosting Expert
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Cloud Hosting <span className="bg-gradient-primary bg-clip-text text-transparent">Migratie</span> Best Practices 2024
+              Cloud Hosting <span className="bg-gradient-primary bg-clip-text text-transparent">Migratie</span> Best Practices 2026
             </h1>
             <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
               Ontdek bewezen cloud hosting migratie strategieën voor Nederlandse bedrijven. Complete gids voor naadloze cloud migratie zonder downtime, dataverlies of SEO impact. Bespaar 40% op hosting kosten.
