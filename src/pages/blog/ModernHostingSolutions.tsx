@@ -18,7 +18,7 @@ const ModernHostingSolutions = () => {
               Hosting Expert
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Moderne Cloud Hosting Oplossingen: <span className="bg-gradient-primary bg-clip-text text-transparent">Complete Vergelijking 2024</span>
+              Cloud Hosting Vergelijking 2026: <span className="bg-gradient-primary bg-clip-text text-transparent">AWS vs Azure vs Google Cloud</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
               Ontdek de beste cloud hosting oplossingen voor Nederlandse bedrijven in 2024. Complete vergelijking van hosting providers, cloud hosting migratie opties, en kostenbesparing mogelijkheden tot 50%.
