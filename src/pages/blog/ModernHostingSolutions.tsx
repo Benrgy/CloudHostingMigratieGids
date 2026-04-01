@@ -40,7 +40,7 @@ const ModernHostingSolutions = () => {
                 Evolutie van Hosting naar Cloud: Waarom Cloud Hosting Migratie Noodzakelijk is
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                De hosting industrie is fundamenteel veranderd. Traditionele hosting kan niet meer voldoen aan de eisen van moderne Nederlandse bedrijven. Cloud hosting migratie is niet langer een keuze maar een noodzaak voor bedrijven die competitief willen blijven in 2024.
+                De hosting industrie is fundamenteel veranderd. Traditionele hosting kan niet meer voldoen aan de eisen van moderne Nederlandse bedrijven. Cloud hosting migratie is niet langer een keuze maar een noodzaak voor bedrijven die competitief willen blijven in 2026.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
