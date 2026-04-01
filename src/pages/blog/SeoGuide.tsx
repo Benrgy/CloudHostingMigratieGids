@@ -24,7 +24,7 @@ const SeoGuide = () => {
               Ontdek hoe cloud hosting migratie uw SEO rankings kan verbeteren. Complete gids met bewezen strategieën voor Nederlandse bedrijven om 40% meer organisch verkeer te genereren na cloud migratie.
             </p>
             <div className="flex items-center justify-center gap-6 text-sm text-muted-foreground">
-              <span>Gepubliceerd: 22 Juli 2024</span>
+              <span>Bijgewerkt: 1 april 2026</span>
               <span>•</span>
               <span>Leestijd: 12 minuten</span>
               <span>•</span>
