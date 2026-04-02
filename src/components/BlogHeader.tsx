@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X, Cloud, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const BlogHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ const BlogHeader = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <Link to="/" className="flex items-center space-x-3">
             <div className="relative">
               <div className="w-10 h-10 bg-gradient-primary rounded-xl flex items-center justify-center shadow-glow">
                 <Cloud className="w-5 h-5 text-primary-foreground" />
@@ -32,19 +33,19 @@ const BlogHeader = () => {
               </h1>
               <p className="text-xs text-muted-foreground font-medium">Expert Blog</p>
             </div>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <a
+              <Link
                 key={item.label}
-                href={item.href}
+                to={item.href}
                 className="relative text-sm font-medium text-foreground/80 hover:text-foreground transition-colors duration-300 group"
               >
                 {item.label}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-primary transition-all duration-300 group-hover:w-full"></span>
-              </a>
+              </Link>
             ))}
           </nav>
 
@@ -64,14 +65,14 @@ const BlogHeader = () => {
           <nav className="md:hidden mt-4 py-4 border-t border-border">
             <div className="flex flex-col space-y-3">
               {navItems.map((item) => (
-                <a
+                <Link
                   key={item.label}
-                  href={item.href}
+                  to={item.href}
                   className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors px-2 py-1"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.label}
-                </a>
+                </Link>
               ))}
             </div>
           </nav>

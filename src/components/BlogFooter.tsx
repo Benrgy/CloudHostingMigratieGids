@@ -1,4 +1,5 @@
 import { Cloud, Mail, Github, Twitter, Linkedin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const BlogFooter = () => {
   const footerLinks = {
@@ -27,7 +28,7 @@ const BlogFooter = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="flex items-center space-x-3 mb-4">
+            <Link to="/" className="flex items-center space-x-3 mb-4">
               <div className="w-10 h-10 bg-gradient-primary rounded-xl flex items-center justify-center shadow-glow">
                 <Cloud className="w-5 h-5 text-primary-foreground" />
               </div>
@@ -37,7 +38,7 @@ const BlogFooter = () => {
                 </h3>
                 <p className="text-xs text-muted-foreground">Expert Blog</p>
               </div>
-            </div>
+            </Link>
             <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
               Jouw vertrouwde bron voor cloud migratie inzichten, SEO strategieën en moderne web technologie oplossingen. 
               Wij helpen bedrijven om met vertrouwen over te stappen naar de cloud.
@@ -64,12 +65,12 @@ const BlogFooter = () => {
             <ul className="space-y-3">
               {footerLinks.resources.map((link, index) => (
                 <li key={index}>
-                  <a 
-                    href={link.href}
+                  <Link 
+                    to={link.href}
                     className="text-muted-foreground hover:text-primary transition-colors duration-300"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -81,12 +82,12 @@ const BlogFooter = () => {
             <ul className="space-y-3">
               {footerLinks.company.map((link, index) => (
                 <li key={index}>
-                  <a 
-                    href={link.href}
+                  <Link 
+                    to={link.href}
                     className="text-muted-foreground hover:text-primary transition-colors duration-300"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
