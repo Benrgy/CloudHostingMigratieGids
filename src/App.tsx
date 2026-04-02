@@ -33,30 +33,30 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
           <SEOWrapper>
             <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/cloud-migratie" element={<CloudMigratie />} />
-          <Route path="/seo-strategieen" element={<SeoStrategieen />} />
-          <Route path="/tech-oplossingen" element={<TechOplossingen />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/over-ons" element={<OverOns />} />
-          <Route path="/case-studies" element={<CaseStudies />} />
-          <Route path="/seo-tools" element={<SeoTools />} />
-          <Route path="/migratie-gidsen" element={<MigratieGidsen />} />
-          <Route path="/performance-tips" element={<PerformanceTips />} />
-          <Route path="/privacy" element={<Privacy />} />
-          <Route path="/voorwaarden" element={<Voorwaarden />} />
-          <Route path="/blog/seo-gids-2024" element={<SeoGuide />} />
-          <Route path="/blog/cloud-migratie-best-practices" element={<CloudMigrationBestPractices />} />
-          <Route path="/blog/performance-optimalisatie" element={<PerformanceOptimization />} />
-          <Route path="/blog/moderne-hosting-oplossingen" element={<ModernHostingSolutions />} />
-          <Route path="/blog/seo-analytics-cloud" element={<SeoAnalytics />} />
-          <Route path="/blog/beveiliging-cloud-omgevingen" element={<SecurityCloudEnvironments />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/cloud-migratie" element={<CloudMigratie />} />
+              <Route path="/seo-strategieen" element={<SeoStrategieen />} />
+              <Route path="/tech-oplossingen" element={<TechOplossingen />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/over-ons" element={<OverOns />} />
+              <Route path="/case-studies" element={<CaseStudies />} />
+              <Route path="/seo-tools" element={<SeoTools />} />
+              <Route path="/migratie-gidsen" element={<MigratieGidsen />} />
+              <Route path="/performance-tips" element={<PerformanceTips />} />
+              <Route path="/privacy" element={<Privacy />} />
+              <Route path="/voorwaarden" element={<Voorwaarden />} />
+              <Route path="/blog/seo-gids-2024" element={<SeoGuide />} />
+              <Route path="/blog/cloud-migratie-best-practices" element={<CloudMigrationBestPractices />} />
+              <Route path="/blog/performance-optimalisatie" element={<PerformanceOptimization />} />
+              <Route path="/blog/moderne-hosting-oplossingen" element={<ModernHostingSolutions />} />
+              <Route path="/blog/seo-analytics-cloud" element={<SeoAnalytics />} />
+              <Route path="/blog/beveiliging-cloud-omgevingen" element={<SecurityCloudEnvironments />} />
+              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="*" element={<NotFound />} />
+            </Routes>
           </SEOWrapper>
         </BrowserRouter>
       </TooltipProvider>
